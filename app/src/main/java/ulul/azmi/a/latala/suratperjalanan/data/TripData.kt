@@ -1,9 +1,9 @@
 package ulul.azmi.a.latala.suratperjalanan.data
 
 data class TripData(
-    val id: Int,
-    val nama: String,
-    val tujuan: String,
-    val tanggal: String,
-    val keterangan: String
+    val id: Int, // ID unik untuk setiap perjalanan
+    val nama: String, // Nama pemohon perjalanan
+    val tujuan: String, // Tujuan perjalanan
+    val tanggal: String, // Tanggal perjalanan
+    val keterangan: String // Keterangan tambahan
 )
